@@ -1,0 +1,42 @@
+# ============================================================================
+# REQUISITOS DEL PROYECTO: Data Warehouse de Comercio Exterior
+# ============================================================================
+# Instalar con: pip install -r requirements.txt
+# ============================================================================
+
+# BASE DE DATOS
+# ============================================================================
+# DuckDB: Motor SQL embebido, optimizado para OLAP
+# Permite queries SQL completos sin servidor externo
+duckdb==1.0.0
+
+# MANEJO DE DATOS
+# ============================================================================
+# Pandas: Manipulación de datos tabular, integración con DuckDB
+# Carga/transformación de DataFrames
+pandas==2.2.0
+
+# NumPy: Operaciones numéricas, arrays multidimensionales
+# Base para cálculos científicos
+numpy==1.24.0
+
+# VISUALIZACIÓN
+# ============================================================================
+# Matplotlib: Gráficos 2D de bajo nivel, genera PNG/PDF
+# Base para todos los reportes visuales
+matplotlib==3.8.0
+
+# Seaborn: Visualización estadística sobre Matplotlib
+# Gráficos más estéticos (barras, líneas, heatmaps)
+seaborn==0.13.0
+
+# HERRAMIENTAS OPCIONALES
+# ============================================================================
+# Para desarrollo/debug adicional:
+# - jupyter: Notebooks interactivos
+# - ipython: Shell interactivo mejorado
+# - pytest: Framework de testing
+
+# jupyter==1.0.0
+# ipython==8.12.0
+# pytest==7.4.0
